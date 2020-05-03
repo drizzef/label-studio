@@ -3,4 +3,4 @@ build:
     web: Dockerfile
 
 run:
-  web: "label-studio start my_project --init --force --template text_sentiment"
+  web: label-studio start my_project --init --force --template text_sentiment
