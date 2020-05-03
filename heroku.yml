@@ -3,4 +3,4 @@ build:
     web: Dockerfile
 
 run:
-  web: "/app/scripts/run-demo.sh image_bbox"
+  web: "label-studio start my_project --init --force --template text_sentiment"
