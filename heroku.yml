@@ -1,3 +1,5 @@
 build:
   docker:
     web: Dockerfile
+run:
+  web: label-studio start my_project --init --no-browser --force --template text_sentiment
