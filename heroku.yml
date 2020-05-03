@@ -1,5 +1,3 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: label-studio start my_project --init --force --template text_sentiment
